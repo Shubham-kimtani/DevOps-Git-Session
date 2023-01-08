@@ -2,7 +2,7 @@ pipeline{
   agent any
   
   stages{
-    stage("Checkout SCM"){
+    stage("My first Stage"){
       steps{
         echo "Hello, this is my first stage where I have implemented Jenkinsfile from SCM"
       }
